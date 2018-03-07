@@ -36,9 +36,10 @@ ReturnObj findMax(int data[], int n) {
 }
 int main(int argc, const char * argv[]) {
     
-    freopen("/Users/hongseung-ui/data_structure_lab/data_structure_lab/Lab0-1.dat","r",stdin);
-    int N;
-    int in[100];
+    freopen("/Users/hongseung-ui/data_structure_lab/data_structure_lab/Lab0-1.dat","r",stdin); // mac 에선 상대경로 불가..
+   
+    int N; // 데이터 갯수
+    int in[100]; // 데이터 담는 배열
     
     scanf("%d",&N);
     
@@ -48,7 +49,9 @@ int main(int argc, const char * argv[]) {
     
     ReturnObj min = findMin(in,N);
     ReturnObj max = findMax(in,N);
+    
     printf("Minimum number is %d at position %d, \nMaximum number is %d at position %d\n",min.data,min.index+1,max.data,max.index+1);
+    
     return 0;
 }
 
