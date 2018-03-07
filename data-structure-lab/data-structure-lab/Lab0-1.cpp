@@ -1,5 +1,5 @@
 //
-//  main.cpp
+//  lab0-1.cpp
 //  data structure lab
 //
 //  Created by 홍승의 on 2018. 3. 7..
