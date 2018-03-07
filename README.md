@@ -2,7 +2,7 @@
 ### 주의사항!
 복붙 절대 금지!
 ### tip
-![팁 경로!](https://github.com/zaeval/data-structure-example/tree/master/help%20guide)
+[팁 경로!](https://github.com/zaeval/data-structure-example/tree/master/help%20guide)
 
 ### log
 ```
