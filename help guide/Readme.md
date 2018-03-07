@@ -1,5 +1,3 @@
-![](https://github.com/zaeval/data-structure-example/blob/master/help%20guide/LabAnyWhere.png)
-
 
 " 이 문서는 visual studio 2017을 기반으로 작성 하였습니다 "
 
