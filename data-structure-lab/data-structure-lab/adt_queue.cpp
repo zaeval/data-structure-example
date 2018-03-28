@@ -10,6 +10,9 @@
 
 template <typename T>
 Queue<T>::Queue(){
+    top = 0;
+    size = 0;
+    bottom = 0;
     arr = new T[size+1];
     size = 1;
 }
@@ -88,10 +91,6 @@ T Queue<T>::pop(){
 }
 template <typename T>
 void Queue<T>::clear(){
-    delete []arr;
-    size = 0;
-    top = 0;
-    bottom = 0;
-    arr = new T[size+1];
-    size = 1;
+    ~Queue();
+    Queue();
 }

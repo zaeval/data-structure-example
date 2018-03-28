@@ -16,8 +16,8 @@ using namespace std;
 template<typename T>
 class Stack{
 private:
-    int top = 0;
-    int size = 0;
+    int top;
+    int size;
     T *arr;
     void resize() {
         size_t newSize = ++size + 1;

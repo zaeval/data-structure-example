@@ -16,9 +16,9 @@ using namespace std;
 template<typename T>
 class Queue{
 private:
-    int top = 0;
-    int size = 0;
-    int bottom = 0;
+    int top;
+    int size;
+    int bottom;
     T *arr;
     void resize() {
         size_t newSize = ++size;

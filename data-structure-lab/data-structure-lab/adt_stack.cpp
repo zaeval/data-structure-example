@@ -10,6 +10,8 @@
 
 template <typename T>
 Stack<T>::Stack(){
+    top = 0;
+    size = 0;
     arr = new T[size+1];
 }
 template <typename T>
@@ -69,8 +71,6 @@ T Stack<T>::pop(){
 }
 template <typename T>
 void Stack<T>::clear(){
-    delete []arr;
-    size = 0;
-    top = 0;
-    arr = new T[size+1];
+    ~Stack();
+    Stack();
 }
