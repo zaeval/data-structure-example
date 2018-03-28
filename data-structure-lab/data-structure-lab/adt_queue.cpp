@@ -86,3 +86,12 @@ T Queue<T>::pop(){
         return -1;
     }
 }
+template <typename T>
+void Queue<T>::clear(){
+    delete []arr;
+    size = 0;
+    top = 0;
+    bottom = 0;
+    arr = new T[size+1];
+    size = 1;
+}

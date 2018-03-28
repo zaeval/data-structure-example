@@ -64,6 +64,13 @@ T Stack<T>::pop(){
         return ret;
     }
     else{
-        return -1;
+        return NULL;
     }
+}
+template <typename T>
+void Stack<T>::clear(){
+    delete []arr;
+    size = 0;
+    top = 0;
+    arr = new T[size+1];
 }

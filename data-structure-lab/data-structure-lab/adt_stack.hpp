@@ -40,6 +40,7 @@ public:
     bool isEmpty();
     void push(T input);
     T getTopValue();
+    void clear();
     T pop();
     
 };
